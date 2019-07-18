@@ -3,5 +3,6 @@ server:
 msg: 'just for test'
 management:
   endpoints:
-    env:
-      enabled: true
+    web:
+      exposure:
+        include: env
