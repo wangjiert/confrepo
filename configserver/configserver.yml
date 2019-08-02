@@ -1,2 +1,12 @@
 server:
-   port: 8000
+  port: 8000
+---
+spring:
+  profiles: node1
+server:
+  port: 8001
+---
+spring:
+  profiles: node2
+server:
+  port: 8002
