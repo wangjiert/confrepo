@@ -1,7 +1,2 @@
-management:
-    endpoints:
-        web:
-            exposure:
-                include: env
 server:
-   port: 8100
+  port: 8100
