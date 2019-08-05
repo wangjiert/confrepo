@@ -1,5 +1,3 @@
-encrypt:
-  key: testsymmetric
 server:
   port: 8000
 ---
